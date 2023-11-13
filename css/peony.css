@@ -1,0 +1,248 @@
+@charset "utf-8";
+@import url(base.css);
+
+body {}
+
+.wrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-width: 1027px;
+	min-height: 768px;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #333
+}
+
+figure {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background: #222;
+	
+}
+figure .bg {
+	width: 100%;
+	height: 100%;
+	background: url(../img/peony_p1.jpg) no-repeat 0px -80px;
+	background-size: cover
+}
+figure img {
+	position: absolute;
+	width: 200px;
+	left: 50%;
+	top: 60px;
+	margin-left: -100px;
+}
+
+aside {
+	position: relative;
+	width: 30%;
+	float: left;
+}
+aside h3 {
+	position: absolute;
+	width: 210px;
+	right: 0;
+	top: 100px
+}
+aside h3 img {
+	width: 100%
+}
+aside ul {
+	position: absolute;
+	width: 210px;
+	font-size: 18px;
+	right: 0;
+	top: 130px;
+	border: solid 1px #999
+}
+aside ul li {
+	border-bottom: solid 1px #999;
+	box-sizing: border-box
+}
+aside ul li:last-child {
+	border-bottom: none
+}
+aside ul li a {
+	display: block;
+	line-height: 50px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	transition: all .2s
+}
+aside ul li a:hover,
+aside ul li a:focus,
+aside ul li.on a {
+	background: #333;
+	color: #fff
+}
+
+main {
+	position: relative;
+	width: 70%;
+	height: 700px;
+	float: right;
+	padding: 40px;
+	box-sizing: border-box;
+}
+main div {
+	position: absolute;
+	transition: all 0.5s
+}
+main h2 {
+	font-size: 40px;
+	margin-top: 55px
+}
+
+main h4 {
+	margin-top: 5px;
+	letter-spacing: 4.5px;
+	padding-left: 3px;
+	color: #777
+}
+main .wed > p {
+	width: 75%;
+	min-width: 600px;
+	margin-top: 30px;
+	line-height: 30px;
+	text-align: justify
+}
+main .wed > p em {
+	font-style: normal;
+	color: #214940;
+	font-weight: 500
+}
+main .wed > p strong {
+	display: block;
+	font-size: 22px;
+	color: #444;
+	font-weight: 500;
+	margin-bottom: 10
+}
+
+main .notice table {
+		width: 75%;
+	  min-width: 650px;
+    text-align: left;
+    line-height: 25px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    margin: 20px 10px;
+}
+main .notice table th {
+    padding: 10px;
+		width: 100px;
+    text-align: center;
+		border-bottom: solid thin #999
+}
+main .notice table td {
+    padding: 10px;
+    vertical-align: top;
+		border-bottom: solid thin #999;
+		height: 40px;
+}
+main .notice table td:nth-of-type(1) {
+	width: 60%;
+	padding-left: 20px
+}
+main .notice table td:nth-of-type(n+2) {
+	font-size: 14px;
+	text-align: center;
+	width: 20%
+}
+main .notice table td a {
+	display: block;
+}
+main .notice table td a:hover,
+main .notice table td a:focus {
+	text-decoration: underline
+}
+
+main .notice table .even {
+    background: #efefef;
+}
+
+main .terms {
+	width: 75%
+}
+main .terms h5 {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 20px 0
+}
+main .terms h6 {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	margin-top: 180px;
+}
+
+main > .terms > .peony_txt {
+	padding:10px;
+	overflow-y:scroll;
+	height:100px;
+	font-size:0.9em;
+	border:solid 0.5px #ccc;
+	opacity: 1;
+}
+
+main > .terms .peony_txt p {
+	line-height: 1.2em
+}
+
+
+main div.on {
+	opacity: 1;
+	z-index: 1
+}
+main div {
+	opacity: 0
+}
+
+
+footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	font-size: 16px;
+	clear: both;
+	margin-bottom: 60px;
+	border-top: solid 1px #999;
+	font-size: 15px
+}
+footer .inner {
+	width: 960px;
+	margin: auto;
+}
+footer .flogo {
+	float: left;
+	width: 150px;
+	height: 150px
+}
+footer .flogo img {
+	display: block;
+	width: 100px;
+	margin: auto;
+	padding-top: 20px;
+	box-sizing: border-box
+	
+}
+footer p {
+	line-height: 20px;
+	margin-top: 30px
+}
+footer p b{
+	display: block;
+	font-weight: normal
+}
+footer address {
+	font-style: normal;
+	line-height: 40px;
+}
+@media screen and (max-width:1300px) {
+	figure .bg {
+	background-position: 0 -50px;
+}
+}

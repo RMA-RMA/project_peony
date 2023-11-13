@@ -1,0 +1,276 @@
+@charset "utf-8";
+@import url(base.css);
+
+body {}
+
+.wrap {
+	position: relative;
+	width: 100%;
+	min-width: 1027px;
+}
+
+
+/*figure 추가*/
+figure {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background: #222;
+	
+}
+figure .bg {
+	width: 100%;
+	height: 100%;
+	background: url(../img/peony_p1.jpg) no-repeat 0px -100px;
+	background-size: cover
+}
+figure a {
+	position: absolute;
+	display: block;
+	width: 200px;
+	left: 50%;
+	top: 60px;
+	margin-left: -100px;
+}
+figure img {
+	width: 100%
+}
+
+/*main*/
+main {
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	padding-top: 50px
+}
+main .inner {
+	position: relative;
+	width: 910px;
+	margin: auto
+}
+main .inner h3 {
+	margin: auto;
+	width: 180px;
+	height: 40px;
+	background: url(../img/flower.png) no-repeat;
+	background-size: contain
+}
+main .inner h1 {
+	font-size: 50px;
+	color: #507a64;
+	text-shadow: 2px 0px 5px #ffb58d
+}
+main .inner > p {
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #666;
+	font-size: 15px;
+	margin-top: 20px
+}
+main .inner p strong {
+	display: block;
+	margin: 10px 0;
+	font-weight: 400
+}
+main .inner ul {
+	width: 910px;
+	margin-top: 30px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+main .inner ul > li {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-right: 40px;
+	border-radius: 100px;
+	overflow: hidden
+}
+main .inner ul > li:last-child {
+	margin-right: 0
+}
+main .inner ul > li span {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 150px;
+	height: 75px;
+	background: #fff;
+	opacity: .7
+}
+main .inner ul > li p {
+	position: absolute;
+	width: 110px;
+	left: 50%;
+	margin-left: -55px;
+	top: 90px;
+	line-height: 1.2em
+}
+main .inner ul > li:nth-child(4) p {
+	width: 90px;
+	margin-left: -45px
+}
+
+main .inner ul > li:nth-child(1){
+	background: url(../img/der_con_p1.jpg) no-repeat 0 -20px;
+	background-size: cover
+}
+main .inner ul > li:nth-child(2){
+	background: url(../img/der_con_p2.jpg) no-repeat -85px 0px;
+	background-size: cover
+}
+main .inner ul > li:nth-child(3){
+	background: url(../img/der_con_p3.jpg) no-repeat -150px 0;
+	background-size: cover
+}
+main .inner ul > li:nth-child(4){
+	background: url(../img/der_con_p4.jpg) no-repeat 0 -20px;
+	background-size: cover
+}
+main .inner ul > li:nth-child(5){
+	background: url(../img/der_con_p5.jpg) no-repeat -180px -10px;
+	background-size: 400px
+}
+
+main .inner ul > li:hover {
+	
+}
+
+main .inner img {
+	position: absolute;
+	width: 1050px;
+	bottom: -220px;
+	left: 50%;
+	margin-left: -525px;
+	
+}
+
+
+section {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 60px
+}
+section .bar {
+	width: 100%;
+	height: 20px;
+	background: #214940
+}
+section article {
+	position: relative;
+	width: 33.3333%;
+	height: 300px;
+	float: left;
+	cursor: pointer;
+	transition: all .5s;
+	overflow: hidden;
+}
+
+section article:nth-of-type(1) {
+	background: url(../img/der_con_p7_b.jpg) no-repeat 0 -80px
+}
+section article:nth-of-type(2) {
+	background: url(../img/der_con_p8_b.jpg) no-repeat 0 -80px
+}
+section article:nth-of-type(3) {
+	background: url(../img/der_con_p6_b.jpg) no-repeat 0 -200px
+}
+section article:nth-of-type(4) {
+	background: url(../img/der_con_p9_b.jpg) no-repeat 0 0
+}
+section article:nth-of-type(5) {
+	background: url(../img/der_con_p11_b.jpg) no-repeat 0 0
+}
+section article:nth-of-type(6) {
+	background: url(../img/der_con_p10_b.jpg) no-repeat 0 -200px
+}
+
+section article:nth-of-type(1):hover {
+	background: url(../img/der_con_p7.jpg) no-repeat 0 -80px
+}
+section article:nth-of-type(2):hover {
+	background: url(../img/der_con_p8.jpg) no-repeat 0 -80px
+}
+section article:nth-of-type(3):hover {
+	background: url(../img/der_con_p6.jpg) no-repeat 0 -200px
+}
+section article:nth-of-type(4):hover {
+	background: url(../img/der_con_p9.jpg) no-repeat 0 0
+}
+section article:nth-of-type(5):hover {
+	background: url(../img/der_con_p11.jpg) no-repeat 0 0
+}
+section article:nth-of-type(6):hover {
+	background: url(../img/der_con_p10.jpg) no-repeat 0 -200px
+}
+
+
+section article span > p {
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	left: 100%;
+	bottom: 0;
+	border-top: solid 10px #fff;
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	transition: all 0.5s;
+	box-sizing: border-box
+}
+
+
+/*
+section article:hover span > p {
+	left: 70%
+}
+*/
+
+
+section article span {
+	position: absolute;
+	width: 90%;
+	height: 85%;
+	left: 50%;
+	top: 50%;
+	margin-left: -240px;
+	margin-top: -130px;
+	border: 5px solid #fff;
+	opacity: 0;
+	transition: all 1s;
+	overflow: hidden
+}
+
+
+/*
+section article:hover span {
+	opacity: 0.8
+}
+*/
+
+
+section article:nth-of-type(1):hover p {
+	border-top: solid 10px #fff795
+}
+section article:nth-of-type(2):hover p {
+	border-top: solid 10px #70b154
+}
+section article:nth-of-type(4):hover p {
+	border-top: solid 10px #ffb0a9
+}
+section article:nth-of-type(5):hover p {
+	border-top: solid 10px #f53218
+}
+section article:nth-of-type(6):hover p {
+	border-top: solid 10px #54a6d9
+}
+
+
+section article p strong {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%
+}

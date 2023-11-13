@@ -1,0 +1,484 @@
+@charset 'utf-8';
+@import url(base.css);
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative);
+
+/*icon 공통*/
+.icon {
+	position: absolute;
+	color: #555;
+}
+
+/*웨딩견적 제목 디자인 */
+.disc {
+	width: 100%;
+    height: 140px;
+}
+.disc h1 {
+	position: absolute;
+	left: 130px;
+	top: 60px;
+	color: #fff;
+	font-family: 'Cinzel Decorative';
+    z-index: 1
+}
+.disc p {}
+.disc p:nth-of-type(1) {
+	position: absolute;
+	width: 100%;
+	height: 90px;
+	left: 0;
+	top: 50px;
+	background: #222;
+}
+.disc p:nth-of-type(2) {
+	position: absolute;
+	width: 80%;
+	height: 120px;
+	left: 100px;
+	top: 20px;
+	background: url(../img/pack_disc.jpg) no-repeat left center;
+    background-size:cover
+}
+
+/*section*/
+section {
+	width: 100%;
+    height:100%;
+}
+
+/*section의 sub메뉴 */
+section > .section_ul {
+    position: fixed;
+    top:250px;
+    left:5%;
+	width: 15%;
+	border:solid 0.5px #ccc;
+    transition: all 0.5s
+
+}
+.section_ul li {}
+.section_ul li a {
+    width: 100%;
+	display: block;
+    line-height: 60px;
+	text-align: center;
+	letter-spacing: 2px;
+	background: #fff;
+	color: #222;
+    transition: all 0.5s
+}
+.section_ul li:nth-child(-n+2) a {
+	border-bottom: solid 0.5px #ccc
+}
+.section_ul li a:hover,
+.section_ul li a:focus,
+.section_ul li.on a {
+	background: #222;
+	color: #eee;
+	font-weight: bolder;
+}
+
+/*section의 main내용*/
+section main {
+	position: absolute;
+	right:5%;
+	top:250px;
+	width: 70%;
+	z-index: 3;
+
+}
+
+section main > p{
+    float:right;
+    margin-right:30px
+}
+section main > p em{
+display: block;
+text-align: right
+
+}
+section main article {}
+section main article h3 {
+	line-height: 50px;
+	letter-spacing: 5px;
+    padding:20px 0 5px;
+        clear:both;
+}
+section main article ul {
+}
+section main article ul li {
+	position: relative;
+	width:16.6666%;
+float:left;
+	height:200px;
+	opacity: 0.7;
+    transition: all 0.5s
+    
+}
+section main article ul li a {
+	display: block;
+	width:100%;
+    height:100%
+}
+section main article ul li span {
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	line-height: 30px;
+	background:#222;
+	color:#eee;
+	opacity:0;
+	transition: all 0.5s;
+    text-align: center;
+}
+section main article ul li:hover span {
+		bottom:0;
+		opacity: 0.9
+}
+section main article ul li:hover {
+	opacity: 1;
+
+}
+
+/*section의 main:con2 사진크기 변경 */
+section .con2 article ul li {
+	width:33.3333%;
+    height:200px;
+}
+/*section의 main:con3 의 article3번째 사진크기변경 */
+section .con3 article:nth-of-type(3) ul li {
+	width:25%;
+}
+/*section의 main:con1 의 article 사진*/
+section .con1 article:nth-of-type(1) ul li:nth-of-type(1) {
+	background: url(../img/pack_con1_p1.jpg) no-repeat 0 0;
+	background-size: cover
+}
+section .con1 article:nth-of-type(1) ul li:nth-of-type(2) {
+	background: url(../img/pack_con1_p2.jpg) no-repeat center;
+	background-size: cover
+}
+section .con1 article:nth-of-type(1) ul li:nth-of-type(3) {
+	background: url(../img/pack_con1_p3.jpg) no-repeat center;
+	background-size: cover
+}
+section .con1 article:nth-of-type(1) ul li:nth-of-type(4) {
+	background: url(../img/pack_con1_p4.jpg) no-repeat center;
+	background-size: cover
+}
+section .con1 article:nth-of-type(1) ul li:nth-of-type(5) {
+	background: url(../img/pack_con1_p5.jpg) no-repeat center;
+	background-size: cover
+}
+section .con1 article:nth-of-type(1) ul li:nth-of-type(6) {
+	background: url(../img/pack_con1_p6.jpg) no-repeat center;
+	background-size: cover
+}
+section .con1 article:nth-of-type(2) ul li:nth-of-type(1) {
+	background: url(../img/pack_con2_p1.jpg) no-repeat top left ;
+	background-size: cover
+}
+section .con1 article:nth-of-type(2) ul li:nth-of-type(2) {
+	background: url(../img/pack_con2_p2.jpg) no-repeat top center;
+	background-size: cover
+}
+section .con1 article:nth-of-type(2) ul li:nth-of-type(3) {
+	background: url(../img/pack_con2_p3.jpg) no-repeat top;
+	background-size: cover
+}
+section .con1 article:nth-of-type(2) ul li:nth-of-type(4) {
+	background: url(../img/pack_con2_p4.jpg) no-repeat top;
+	background-size: cover
+}
+section .con1 article:nth-of-type(2) ul li:nth-of-type(5) {
+	background: url(../img/pack_con2_p5.jpg) no-repeat top left;
+	background-size: cover
+}
+section .con1 article:nth-of-type(2) ul li:nth-of-type(6) {
+	background: url(../img/pack_con2_p6.jpg) no-repeat top;
+	background-size: cover
+}
+section .con1 article:nth-of-type(3) ul li:nth-of-type(1) {
+	background: url(../img/pack_con3_p1.jpg) no-repeat center;
+	background-size: cover
+}
+section .con1 article:nth-of-type(3) ul li:nth-of-type(2) {
+	background: url(../img/pack_con3_p2.jpg) no-repeat center;
+	background-size: cover
+}
+section .con1 article:nth-of-type(3) ul li:nth-of-type(3) {
+	background: url(../img/pack_con3_p3.jpg) no-repeat center;
+	background-size: cover
+}
+section .con1 article:nth-of-type(3) ul li:nth-of-type(4) {
+	background: url(../img/pack_con3_p4.jpg) no-repeat center;
+	background-size: cover
+}
+section .con1 article:nth-of-type(3) ul li:nth-of-type(5) {
+	background: url(../img/pack_con3_p5.jpg) no-repeat center;
+	background-size: cover
+}
+section .con1 article:nth-of-type(3) ul li:nth-of-type(6) {
+	background: url(../img/pack_con3_p6.jpg) no-repeat center;
+    background-size: cover}
+/*section의 main:con2 의 article 사진*/
+section .con2 article:nth-of-type(1) ul li:nth-of-type(1) {
+	background: url(../img/pack_con1_p1.jpg) no-repeat 5% 20%;
+	background-size: 100%
+}
+section .con2 article:nth-of-type(1) ul li:nth-of-type(2) {
+	background: url(../img/pack_con2_p1.jpg) no-repeat top;
+	background-size: cover
+}
+section .con2 article:nth-of-type(1) ul li:nth-of-type(3) {
+	background: url(../img/pack_con3_p1.jpg) no-repeat center;
+	background-size: cover
+}
+section .con2 article:nth-of-type(2) ul li:nth-of-type(1) {
+	background: url(../img/pack_con1_p2.jpg) no-repeat bottom;
+	background-size: cover
+}
+section .con2 article:nth-of-type(2) ul li:nth-of-type(2) {
+	background: url(../img/pack_con2_p2.jpg) no-repeat top;
+	background-size: cover
+}
+section .con2 article:nth-of-type(2) ul li:nth-of-type(3) {
+	background: url(../img/pack_con3_p2.jpg) no-repeat center;
+	background-size: cover
+}
+section .con2 article:nth-of-type(3) ul li:nth-of-type(1) {
+	background: url(../img/pack_con1_p3.jpg) no-repeat center;
+	background-size: cover
+}
+section .con2 article:nth-of-type(3) ul li:nth-of-type(2) {
+	background: url(../img/pack_con2_p3.jpg) no-repeat top;
+	background-size: cover
+}
+section .con2 article:nth-of-type(3) ul li:nth-of-type(3) {
+	background: url(../img/pack_con3_p4.jpg) no-repeat top;
+	background-size: cover
+}
+/*section의 main:con3 의 article 사진*/
+section .con3 article:nth-of-type(1) ul li:nth-of-type(1) {
+	background: url(../img/cous_con3_p1.jpg) no-repeat center;
+	background-size: cover
+}
+section .con3 article:nth-of-type(1) ul li:nth-of-type(2) {
+	background: url(../img/cous_con3_p2.jpg) no-repeat center;
+	background-size: cover
+}
+section .con3 article:nth-of-type(1) ul li:nth-of-type(3) {
+	background: url(../img/cous_con3_p3.jpg) no-repeat center;
+	background-size: cover
+}
+section .con3 article:nth-of-type(1) ul li:nth-of-type(4) {
+	background: url(../img/cous_con3_p4.jpg) no-repeat center;
+	background-size: cover
+}
+section .con3 article:nth-of-type(1) ul li:nth-of-type(5) {
+	background: url(../img/cous_con3_p5.png) no-repeat center;
+	background-size: cover
+}
+section .con3 article:nth-of-type(1) ul li:nth-of-type(6) {
+	background: url(../img/cous_con3_p6.jpeg) no-repeat center;
+	background-size: cover
+}
+section .con3 article:nth-of-type(2) ul li:nth-of-type(1) {
+	background: url(../img/cous_con3_p7.jpg) no-repeat top;
+	background-size: cover
+}
+section .con3 article:nth-of-type(2) ul li:nth-of-type(2) {
+	background: url(../img/cous_con3_p8.jpg) no-repeat top;
+	background-size: cover
+}
+section .con3 article:nth-of-type(2) ul li:nth-of-type(3) {
+	background: url(../img/cous_con3_p9.jpg) no-repeat center;
+	background-size: cover
+}
+section .con3 article:nth-of-type(2) ul li:nth-of-type(4) {
+	background: url(../img/cous_con3_p10.jpg) no-repeat top;
+	background-size: cover
+}
+section .con3 article:nth-of-type(2) ul li:nth-of-type(5) {
+	background: url(../img/cous_con3_p11.jpg) no-repeat top;
+	background-size: cover
+}
+section .con3 article:nth-of-type(2) ul li:nth-of-type(6) {
+	background: url(../img/cous_con3_p12.png) no-repeat top;
+	background-size: cover
+}
+section .con3 article:nth-of-type(3) ul li:nth-of-type(1) {
+	background: url(../img/cous_con3_p13.jpg) no-repeat center;
+	background-size: cover
+}
+section .con3 article:nth-of-type(3) ul li:nth-of-type(2) {
+	background: url(../img/cous_con3_p15.jpg) no-repeat center;
+	background-size: cover
+}
+section .con3 article:nth-of-type(3) ul li:nth-of-type(3) {
+	background: url(../img/cous_con3_p14.jpg) no-repeat center;
+	background-size: cover
+}
+section .con3 article:nth-of-type(3) ul li:nth-of-type(4) {
+	background: url(../img/cous_con3_p7.jpg) no-repeat center;
+	background-size: cover
+}
+
+/*맨위로 올리기*/
+.top {
+	position: fixed;
+	width:50px;
+	height:100px;
+	right:1%;
+	bottom:10%;
+	font-size:1.5em;
+	color:#555;
+	z-index: 3;
+	opacity: 0;
+    text-align: center;
+    	transition: all 0.5s
+}
+.top a {
+	display: block;
+       font-size:2em
+		transition: all 0.5s
+}
+.top a i{
+	display: block;
+
+}
+.top a:hover {
+	color:#222
+}
+
+/*jQuery용*/
+section main {
+z-index: 1;
+opacity:0;
+	transition: all 1.5s;
+}
+
+section main.on {
+z-index: 3;
+opacity:1
+}
+/*jQuery 스크롤 고정*/
+section >ul.on {
+	top:7%;
+}
+.top.on {
+    opacity:1;
+}
+
+
+/*form문의 table*/
+table {
+	width:90%;
+	margin: auto;
+	padding:100px
+}
+table tr {
+	background:#eee;
+	width:100%;
+	height:50px;
+}
+tabel tr th {
+	width:25%;
+}
+table input {
+	background: #fff;
+	width:100%;
+	height:50px;
+    border:solid 0.1px #eee;
+    box-sizing: border-box
+	
+}
+table tr:nth-child(1){
+}
+table tr:nth-child(4){
+	background:#fff;
+}
+table tr:nth-child(5) input{
+	height: 200px;
+	border:solid 1px #ccc
+}
+table tr textarea {
+	width:100%;
+	height:100%;
+	background: #fff;
+	color:#555;
+		border:solid 1px #ccc;
+	box-sizing: border-box
+
+}
+table tr:nth-child(6){
+	background:#fff;
+}
+table tr:nth-child(9) {
+		background:#fff;
+	text-align: left;
+}
+table tr:nth-child(9) input {
+	float:left;
+	width:20px;
+	height:20px;
+		margin-left:10px;
+}
+table tr:nth-child(9) p{
+	width:80%;
+float:left;
+		margin-left:10px;
+}
+table tr:nth-child(10) {
+		background:#fff;
+}
+table tr:nth-child(10) button{
+	padding:20px;
+		background: #222;
+	color:#fff;
+		border:solid 1px #222;
+    transition: all 0.5s
+}
+table tr:nth-child(10) button:hover{
+	background: #222;
+	color:#ffb58d;
+	cursor: pointer
+}
+
+
+/*main 안의 footer*/
+section main footer {
+
+	width:100%;
+	height:200px;
+	font-size:0.8em;
+	border-top:solid 0.1px #eee;
+	padding-top:40px
+}
+section main footer h1 {
+	float:left;
+	width:10%;
+	height:50px;
+	background: url(../img/logo.png) no-repeat center;
+	background-size:100px
+	
+}
+section main footer h1 a{
+	display: block
+}
+section main footer address{
+	float:right;
+		width:80%;
+}
+section main footer address p:nth-of-type(1){
+	padding-top:10px
+}
+section main footer address p:nth-of-type(2){
+	padding-top:10px
+}
+section main footer address p:nth-of-type(2) em {
+	display: block;
+		padding-top:10px
+}
+

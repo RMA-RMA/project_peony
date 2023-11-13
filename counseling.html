@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Peony</title>
+	<link rel="stylesheet" href="css/counseling.css">
+	<script src="js/modernizr-custom.js"></script>
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/counseling.js"></script>
+</head>
+
+<body id="top">
+
+	<div class="wrap">
+	<nav>
+			<h1 id="logo">
+				<a href="index.html"></a>
+			</h1>
+			<ul id="gnb">
+				<li><a href="peony.html">피오니</a>
+				</li>
+				<li><a href="package.html">웨딩패키지</a>
+				</li>
+				<li><a href="der.html">웨드디렉팅</a></li>
+				<li><a href="#">이벤트</a></li>
+				<li class="on"><a href="counseling.html">웨딩견적</a></li>
+			</ul>
+		</nav>
+		
+		<div class="disc fix">
+			<h1>WEDDING COUNSELING</h1>
+			<p></p>
+			<p></p>
+		</div>
+
+		<section class="fix">
+			<ul class="section_ul">
+				<li class="on"><a href="#">웨딩패키지 견적</a></li>
+				<li><a href="#">예산별 견적</a></li>
+				<li><a href="#">스타일별 견적</a></li>
+			</ul>
+
+			<main class="con1 on">
+				<p>
+					이미지 클릭시 갤러리를 보실수있습니다
+					<em>&#40;문의사항에 업체명을 기재해주세요&#41;</em>
+				</p>
+				<article>
+					<h3>스튜디오</h3>
+					<ul>
+						<li>
+							<a href="#"></a>
+							<span>29더소울아트</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>스튜디오더함</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>도어스튜디오</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>Dimages</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>쟈뎅드라망</span>
+
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>레젤스튜디오</span>
+						</li>
+					</ul>
+				</article>
+
+				<article>
+					<h3>드레스</h3>
+					<ul>
+						<li>
+							<a href="#"></a>
+							<span>A라인드레스</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>벨라인드레스</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>H라인드레스</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>머메이드드레스</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>프린세스드레스</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>컬러드레스</span>
+						</li>
+					</ul>
+				</article>
+
+				<article>
+					<h3>메이크업</h3>
+					<ul>
+						<li>
+							<a href="#"></a>
+							<span>29더소울아트</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>스튜디오더함</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>도어스튜디오</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>Dimages</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>쟈뎅드라망</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>레젤스튜디오</span>
+						</li>
+					</ul>
+				</article>
+
+				<table>
+
+					<tr>
+						<th><label for="name">이름</label></th>
+						<th><input type="text" id="name" placeholder="이름을 입력하세요"></th>
+						<th><label for="D-Day">결혼예정일</label></th>
+						<th><input type="text" id="D-Day" placeholder="2017-00-00"></th>
+					</tr>
+
+					<tr>
+						<th><label for="phone">휴대폰</label></th>
+						<th><input type="text" id="phone" placeholder="010-0000-0000"></th>
+						<th><label for="time">통화가능시간</label></th>
+						<th><input type="text" id="time" placeholder="AM/PM 00:00"></th>
+					</tr>
+
+					<tr>
+						<th><label for="money">예산</label></th>
+						<th>
+							<input type="text" id="money" list="chose" placeholder="예산을 선택하세요">
+							<datalist id="chose">
+							<option value="300만원이하">
+							<option value="300만원~500만원">
+							<option value="500만원~800만원">
+							<option value="800만원~1000만원">
+							<option value="1000만원이상">
+						</datalist>
+
+						</th>
+						<th><label for="area">희망지역</label></th>
+						<th><input type="text" id="area" placeholder="지역을 입력하세요"></th>
+					</tr>
+
+					<tr>
+						<th colspan="4"><label for="question"></label></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<th colspan="4"><input type="text" id="question" placeholder="문의사항을 입력하세요"></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+
+					<tr>
+						<th colspan="4"><label for="emtpy"></label></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+
+					<tr>
+						<th colspan="4"><label for="area">	개인정보 수집 및 이용 동의 안내</label></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+
+					<tr>
+						<td colspan="4"><textarea name="" id="" cols="30" rows="10">
+				
+
+당사는 '개인정보보호법'에 따라 귀하의 개인정보를 다음과 같이 수집.이용하고자 합니다. 
+개인정보의 수집.이용 목적
+- 회원관리와 각종 서비스(온라인 컨텐츠, 웨딩관련 서비스) 이용의사 확인
+- 웨딩관련 서비스 상담 및 이용권유, 광고 및 각종 서비스, 이벤트 안내, 설문 조사를 위한 정보 확보
+
+수집하는 개인정보의 항목
+- 성명, 주민번호앞자리(또는 출생년월일) 성별, 휴대폰번호, 이메일, 주거주지 및 주소, 결혼예정일, 예식지역
+
+개인정보의 보유 및 이용기간
+- 결혼중개업법 기준 5년 또는 개인정보 삭제 및 탈회를 요청할 때까지 보유.이용합니다. 
+- 웨딩컨설팅 계약자인 경우 개인정보에 관한 회사 내부 방침에 따라 개인정보를 보유합니다.
+- 단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다.
+
+가. 회사 내부 방침에 의한 정보보유 사유
+
+-개인정보 삭제 및 회원탈퇴 신청기록 
+　보존 이유 : 부정 이용 방지 
+　보존 기간 : 듀오넷 회원 탈퇴일부터 2년 
+　보존 항목 : 아이디, 이름, 주민번호 앞자리, 이메일 
+
+-채용에 관한 입사지원 기록 
+　보존 이유 : 상시채용을 위한 보관 
+　보존기간 : 개인정보 삭제를 요청하기 전까지
+
+나. 관련법령에 의한 정보보유 사유 
+
+상법, 전자상거래 등에서의 소비자보호에 관한 법률 등 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다. 이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.
+
+- 계약 또는 청약철회 등에 관한 기록 
+　보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률 
+　보존 기간 : 5년 
+
+- 대금결제 및 재화 등의 공급에 관한 기록
+　보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률 
+　보존 기간 : 5년 
+
+- 전자금융 거래에 관한 기록 
+　보존 이유 : 전자금융거래법 
+　보존 기간 : 5년 
+
+- 소비자의 불만 또는 분쟁처리에 관한 기록 
+　보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률 
+　보존 기간 : 3년 
+
+- 본인 확인에 관한 기록 
+　보존 이유 : 정보통신 이용촉진 및 정보보호 등에 관한 법률 
+　보존 기간 : 6개월 
+
+- 웹사이트 방문기록 
+　보존 이유 : 통신비밀보호법 
+　보존 기간 : 3개월
+
+※ 정보동의시 상담을 위해 최소한의 정보만 수집.이용하게 되며, 본 동의를 거부하시는 경우에는 해당 서비스이용 및 상담 등 정상적인 서비스 제공이 불가능 할 수 있습니다.
+</textarea></td>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+
+					<tr>
+						<th colspan="4"><input type="checkbox">
+							<p>개인정보 수집 및 이용에 동의합니다</p>
+						</th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<th colspan="4"><button>웨딩견적 문의하기</button></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+				</table>
+				<footer>
+					<h1>
+						<a href="#"></a>
+					</h1>
+					<address>
+<p>서울시 서초구 (피오니타워) 1층 상호명:피오니(주) / 대표자 : 민아란 최민정 / 통신판매업신고 : 피오니-2469호
+					</p>			
+<p>사업자등록번호 : 000-000-00000 사업자정보확인 / 고객문의정화 : 0000-0000 / FAX : 02-000-0000 /EMAIL : WED@PEONY.COM
+								<em>COPYRIGHT 2017 &copy;PENOY.</em></p>
+			</address>
+				</footer>
+			</main>
+
+			<main class="con2">
+
+				<p>
+					이미지 클릭시 업체 갤러리를 보실수있습니다
+					<em>&#40;문의사항에 업체명을 기재해주세요&#41;</em>
+				</p>
+				<article>
+					<h3>200만원 이하 실속 패키지</h3>
+					<ul>
+						<li>
+							<a href="#"></a>
+							<span>스튜디오</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>드레스</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>메이크업</span>
+						</li>
+
+					</ul>
+
+				</article>
+
+				<article>
+					<h3>200만원~300만원 합리패키지</h3>
+					<ul>
+						<li>
+							<a href="#"></a>
+							<span>스튜디오</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>드레스</span>
+
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>메이크업</span>
+						</li>
+
+					</ul>
+
+				</article>
+
+				<article>
+					<h3>300만원이상 명품패키지</h3>
+					<ul>
+						<li>
+							<a href="#"></a>
+							<span>스튜디오</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>드레스</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>메이크업</span>
+						</li>
+
+					</ul>
+
+				</article>
+				<table>
+
+					<tr>
+						<th><label for="name">이름</label></th>
+						<th><input type="text" id="name" placeholder="이름을 입력하세요"></th>
+						<th><label for="D-Day">결혼예정일</label></th>
+						<th><input type="text" id="D-Day" placeholder="2017-00-00"></th>
+					</tr>
+
+					<tr>
+						<th><label for="phone">휴대폰</label></th>
+						<th><input type="text" id="phone" placeholder="010-0000-0000"></th>
+						<th><label for="time">통화가능시간</label></th>
+						<th><input type="text" id="time" placeholder="AM/PM 00:00"></th>
+					</tr>
+
+					<tr>
+						<th><label for="money">예산</label></th>
+						<th>
+							<input type="text" id="money" list="chose" placeholder="예산을 선택하세요">
+							<datalist id="chose">
+							<option value="300만원이하">
+							<option value="300만원~500만원">
+							<option value="500만원~800만원">
+							<option value="800만원~1000만원">
+							<option value="1000만원이상">
+						</datalist>
+
+						</th>
+						<th><label for="area">희망지역</label></th>
+						<th><input type="text" id="area" placeholder="지역을 입력하세요"></th>
+					</tr>
+
+					<tr>
+						<th colspan="4"><label for="question"></label></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<th colspan="4"><input type="text" id="question" placeholder="문의사항을 입력하세요"></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+
+					<tr>
+						<th colspan="4"><label for="emtpy"></label></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+
+					<tr>
+						<td colspan="4"><label for="area">	개인정보 수집 및 이용 동의 안내</label></td>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+
+					<tr>
+						<th colspan="4"><textarea name="" id="" cols="30" rows="10">
+				
+
+당사는 '개인정보보호법'에 따라 귀하의 개인정보를 다음과 같이 수집.이용하고자 합니다. 
+개인정보의 수집.이용 목적
+- 회원관리와 각종 서비스(온라인 컨텐츠, 웨딩관련 서비스) 이용의사 확인
+- 웨딩관련 서비스 상담 및 이용권유, 광고 및 각종 서비스, 이벤트 안내, 설문 조사를 위한 정보 확보
+
+수집하는 개인정보의 항목
+- 성명, 주민번호앞자리(또는 출생년월일) 성별, 휴대폰번호, 이메일, 주거주지 및 주소, 결혼예정일, 예식지역
+
+개인정보의 보유 및 이용기간
+- 결혼중개업법 기준 5년 또는 개인정보 삭제 및 탈회를 요청할 때까지 보유.이용합니다. 
+- 웨딩컨설팅 계약자인 경우 개인정보에 관한 회사 내부 방침에 따라 개인정보를 보유합니다.
+- 단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다.
+
+가. 회사 내부 방침에 의한 정보보유 사유
+
+-개인정보 삭제 및 회원탈퇴 신청기록 
+　보존 이유 : 부정 이용 방지 
+　보존 기간 : 듀오넷 회원 탈퇴일부터 2년 
+　보존 항목 : 아이디, 이름, 주민번호 앞자리, 이메일 
+
+-채용에 관한 입사지원 기록 
+　보존 이유 : 상시채용을 위한 보관 
+　보존기간 : 개인정보 삭제를 요청하기 전까지
+
+나. 관련법령에 의한 정보보유 사유 
+
+상법, 전자상거래 등에서의 소비자보호에 관한 법률 등 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다. 이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.
+
+- 계약 또는 청약철회 등에 관한 기록 
+　보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률 
+　보존 기간 : 5년 
+
+- 대금결제 및 재화 등의 공급에 관한 기록
+　보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률 
+　보존 기간 : 5년 
+
+- 전자금융 거래에 관한 기록 
+　보존 이유 : 전자금융거래법 
+　보존 기간 : 5년 
+
+- 소비자의 불만 또는 분쟁처리에 관한 기록 
+　보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률 
+　보존 기간 : 3년 
+
+- 본인 확인에 관한 기록 
+　보존 이유 : 정보통신 이용촉진 및 정보보호 등에 관한 법률 
+　보존 기간 : 6개월 
+
+- 웹사이트 방문기록 
+　보존 이유 : 통신비밀보호법 
+　보존 기간 : 3개월
+
+※ 정보동의시 상담을 위해 최소한의 정보만 수집.이용하게 되며, 본 동의를 거부하시는 경우에는 해당 서비스이용 및 상담 등 정상적인 서비스 제공이 불가능 할 수 있습니다.
+</textarea></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+
+					<tr>
+						<th colspan="4"><input type="checkbox">
+							<p>개인정보 수집 및 이용에 동의합니다</p>
+						</th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<th colspan="4"><button>웨딩견적 문의하기</button></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+				</table>
+				<footer>
+					<h1>
+						<a href="#"></a>
+					</h1>
+					<address>
+<p>서울시 서초구 (피오니타워) 1층 상호명:피오니(주) / 대표자 : 민아란 최민정 / 통신판매업신고 : 피오니-2469호
+					</p>			
+<p>사업자등록번호 : 000-000-00000 사업자정보확인 / 고객문의정화 : 0000-0000 / FAX : 02-000-0000 /EMAIL : WED@PEONY.COM
+								<em>COPYRIGHT 2017 &copy;PENOY.</em></p>
+			</address>
+				</footer>
+			</main>
+
+			<main class="con3">
+				<p>
+					이미지 클릭시 갤러리를 보실수있습니다
+					<em>&#40;문의사항에 업체명을 기재해주세요&#41;</em>
+				</p>
+
+				<article>
+					<h3>컬러 패키지</h3>
+
+					<ul>
+						<li>
+							<a href="#"></a>
+							<span>레드</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>핑크</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>엘로우</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>블루</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>그린</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>화이트</span>
+						</li>
+
+					</ul>
+
+				</article>
+
+				<article>
+					<h3>스타일 패키지</h3>
+
+					<ul>
+						<li>
+							<a href="#"></a>
+							<span>심플 스타일</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>로맨틱 스타일</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>트랜디 스타일</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>클래식 스타일</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>엔틱 스타일</span>
+
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>컬러풀 스타일</span>
+						</li>
+					</ul>
+
+				</article>
+				<article>
+					<h3>하우스웨딩</h3>
+					<ul>
+						<li>
+							<a href="#"></a>
+							<span>호텔하우스웨딩</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>럭셔리하우스웨딩</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>레스토랑하우스웨딩</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>야외하우스웨딩</span>
+						</li>
+					</ul>
+				</article>
+				<table>
+
+					<tr>
+						<th><label for="name">이름</label></th>
+						<th><input type="text" id="name" placeholder="이름을 입력하세요"></th>
+						<th><label for="D-Day">결혼예정일</label></th>
+						<th><input type="text" id="D-Day" placeholder="2017-00-00"></th>
+					</tr>
+
+					<tr>
+						<th><label for="phone">휴대폰</label></th>
+						<th><input type="text" id="phone" placeholder="010-0000-0000"></th>
+						<th><label for="time">통화가능시간</label></th>
+						<th><input type="text" id="time" placeholder="AM/PM 00:00"></th>
+					</tr>
+
+					<tr>
+						<th><label for="money">예산</label></th>
+						<th>
+							<input type="text" id="money" list="chose" placeholder="예산을 선택하세요">
+							<datalist id="chose">
+							<option value="300만원이하">
+							<option value="300만원~500만원">
+							<option value="500만원~800만원">
+							<option value="800만원~1000만원">
+							<option value="1000만원이상">
+						</datalist>
+
+						</th>
+						<th><label for="area">희망지역</label></th>
+						<th><input type="text" id="area" placeholder="지역을 입력하세요"></th>
+					</tr>
+
+					<tr>
+						<th colspan="4"><label for="question"></label></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<th colspan="4"><input type="text" id="question" placeholder="문의사항을 입력하세요"></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<th colspan="4"><label for="emtpy"></label></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<td colspan="4"><label for="area">	개인정보 수집 및 이용 동의 안내</label></td>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+
+					<tr>
+						<th colspan="4"><textarea name="" id="" cols="30" rows="10">
+				
+
+당사는 '개인정보보호법'에 따라 귀하의 개인정보를 다음과 같이 수집.이용하고자 합니다. 
+개인정보의 수집.이용 목적
+- 회원관리와 각종 서비스(온라인 컨텐츠, 웨딩관련 서비스) 이용의사 확인
+- 웨딩관련 서비스 상담 및 이용권유, 광고 및 각종 서비스, 이벤트 안내, 설문 조사를 위한 정보 확보
+
+수집하는 개인정보의 항목
+- 성명, 주민번호앞자리(또는 출생년월일) 성별, 휴대폰번호, 이메일, 주거주지 및 주소, 결혼예정일, 예식지역
+
+개인정보의 보유 및 이용기간
+- 결혼중개업법 기준 5년 또는 개인정보 삭제 및 탈회를 요청할 때까지 보유.이용합니다. 
+- 웨딩컨설팅 계약자인 경우 개인정보에 관한 회사 내부 방침에 따라 개인정보를 보유합니다.
+- 단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다.
+
+가. 회사 내부 방침에 의한 정보보유 사유
+
+-개인정보 삭제 및 회원탈퇴 신청기록 
+　보존 이유 : 부정 이용 방지 
+　보존 기간 : 듀오넷 회원 탈퇴일부터 2년 
+　보존 항목 : 아이디, 이름, 주민번호 앞자리, 이메일 
+
+-채용에 관한 입사지원 기록 
+　보존 이유 : 상시채용을 위한 보관 
+　보존기간 : 개인정보 삭제를 요청하기 전까지
+
+나. 관련법령에 의한 정보보유 사유 
+
+상법, 전자상거래 등에서의 소비자보호에 관한 법률 등 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다. 이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.
+
+- 계약 또는 청약철회 등에 관한 기록 
+　보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률 
+　보존 기간 : 5년 
+
+- 대금결제 및 재화 등의 공급에 관한 기록
+　보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률 
+　보존 기간 : 5년 
+
+- 전자금융 거래에 관한 기록 
+　보존 이유 : 전자금융거래법 
+　보존 기간 : 5년 
+
+- 소비자의 불만 또는 분쟁처리에 관한 기록 
+　보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률 
+　보존 기간 : 3년 
+
+- 본인 확인에 관한 기록 
+　보존 이유 : 정보통신 이용촉진 및 정보보호 등에 관한 법률 
+　보존 기간 : 6개월 
+
+- 웹사이트 방문기록 
+　보존 이유 : 통신비밀보호법 
+　보존 기간 : 3개월
+
+※ 정보동의시 상담을 위해 최소한의 정보만 수집.이용하게 되며, 본 동의를 거부하시는 경우에는 해당 서비스이용 및 상담 등 정상적인 서비스 제공이 불가능 할 수 있습니다.
+</textarea></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+
+					<tr>
+						<th colspan="4"><input type="checkbox">
+							<p>개인정보 수집 및 이용에 동의합니다</p>
+						</th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<th colspan="4"><button>웨딩견적 문의하기</button></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+				</table>
+				<footer>
+					<h1>
+						<a href="#"></a>
+					</h1>
+					<address>
+<p>서울시 서초구 (피오니타워) 1층 상호명:피오니(주) / 대표자 : 민아란 최민정 / 통신판매업신고 : 피오니-2469호
+					</p>			
+<p>사업자등록번호 : 000-000-00000 사업자정보확인 / 고객문의정화 : 0000-0000 / FAX : 02-000-0000 /EMAIL : WED@PEONY.COM
+								<em>COPYRIGHT 2017 &copy;PENOY.</em></p>
+			</address>
+				</footer>
+			</main>
+
+		</section>
+
+		<div class="icon">
+			<a href="#"><i class="fa fa-user-circle"></i></a>
+			<a href="#"><i class="fa fa-key"></i></a>
+			<a href="#"><i class="fa fa-envelope"></i></a>
+		</div>
+		<div class="top">
+			<a href="#top">Top
+            <i class="fa fa-eject"></i>
+            </a>
+		</div>
+
+	</div>
+</body>
+
+</html>
